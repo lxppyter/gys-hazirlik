@@ -1,9 +1,12 @@
-# This file tells Netlify how to deploy your Next.js app
+# Netlify Configuration for Next.js 16
 
 [build]
   command = "npm run build"
   publish = ".next"
 
-# Enable Next.js runtime for server components and API routes
+[build.environment]
+  NODE_VERSION = "20"
+
+# Enable Next.js runtime
 [[plugins]]
   package = "@netlify/plugin-nextjs"
