@@ -1,3 +1,4 @@
+// ... imports unchanged
 import Link from "next/link";
 import { BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -13,15 +14,7 @@ export function Navbar() {
           </Link>
         </div>
         
-        {/* Right aligned nav items */}
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600 ml-auto">
-          <Link href="/" className="hover:text-blue-700 transition-colors">
-            Anasayfa
-          </Link>
-          <Link href="/contact" className="hover:text-blue-700 transition-colors">
-            İletişim
-          </Link>
-        </div>
+        {/* Right aligned nav items removed as requested */}
       </div>
     </nav>
   );

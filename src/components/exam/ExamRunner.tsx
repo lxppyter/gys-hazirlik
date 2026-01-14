@@ -113,7 +113,7 @@ export function ExamRunner({ exam }: ExamRunnerProps) {
               size="lg" 
               onClick={handleStart} 
               disabled={!termsAccepted}
-              className="w-full h-12 text-lg font-bold shadow-md shadow-blue-100 transition-all"
+              className="w-full h-12 text-lg font-bold shadow-md shadow-blue-100 transition-all cursor-pointer"
             >
               Sınava Başla
               <ArrowRight className="ml-2 w-5 h-5" />
